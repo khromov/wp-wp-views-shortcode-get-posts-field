@@ -4,10 +4,10 @@ wp-wp-views-shortcode-get-posts-field
 Wordpress shortcode. Gets a a column from the wp_posts table by post ID.
 
 Example usage (gets the GUID of the post with ID 10):  
-'[wpv-get-posts-field id="10" field="guid"]'
+[wpv-get-posts-field id="10" field="guid"]
 
 Example usage #2 (gets the GUID of the post with ID 1):  
-'[wpv-get-post-column id="1" column="post_content"]'
+[wpv-get-post-column id="1" column="post_content"]
 
 
 Full list of available columns in wp_posts:
